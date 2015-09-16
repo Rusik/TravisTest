@@ -1,0 +1,11 @@
+language: objective-c
+osx_image: xcode6.4
+
+env:
+  global:
+
+before_script:
+- echo "before script"
+
+script:
+- echo "script"
