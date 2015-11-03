@@ -9,3 +9,8 @@ before_script:
 
 script:
 - ./script.sh
+
+branches:
+  only:
+    - master
+    - develop
